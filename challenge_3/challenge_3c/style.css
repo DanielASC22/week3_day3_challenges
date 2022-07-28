@@ -15,4 +15,23 @@ div div {
 
 #big_div {
 	border: 5px solid black;
+	display: flex;
+	justify-content: space-between;
 }
+/* Vaporeon class, is supposed to be top left  */
+#sub_div1 {
+	justify-content: flex-start;
+}
+/* Jolteon id, is suppose to be center  */
+#sub_div2 {
+	justify-content: center;
+	align-items: center;
+}
+
+/* Flareon is, is supposed to be bottom right */
+#sub_div3 {
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+
+/* CELEBRATE FAILURE .... I dont know where I went wrong so please tell me when you grade this. */
